@@ -16,11 +16,11 @@ public class Elephant extends Piece
     public static boolean checkPos(int X, int Y, boolean isRed)
     {
         if (isRed)
-            return (X == 0 && Y == 2) || (X == 2 && Y == 0) || (X == 5 && Y == 0) || (X == 5 && Y == 2 ) \
-            || (X == 8 && Y == 2) || (X == 2 || Y == 5) || (X == 5 || Y == 5);
+            return (X == 0 && Y == 2) || (X == 2 && Y == 0) || (X == 5 && Y == 0) || (X == 5 && Y == 2 ) 
+                        || (X == 8 && Y == 2) || (X == 2 || Y == 5) || (X == 5 || Y == 5);
         else 
-            return (X == 0 && Y == 2) || (X == 2 && Y == 9) || (X == 5 && Y == 9) || (X == 5 && Y == 7) \ 
-            || (X == 8 && Y == 7) || (X == 2 || Y == 6) || (X == 5 || Y == 6);
+            return (X == 0 && Y == 2) || (X == 2 && Y == 9) || (X == 5 && Y == 9) || (X == 5 && Y == 7) 
+                        || (X == 8 && Y == 7) || (X == 2 || Y == 6) || (X == 5 || Y == 6);
     }
     
     public boolean move(int X, int Y, Board board)
