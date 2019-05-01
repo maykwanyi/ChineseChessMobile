@@ -4,7 +4,7 @@ import java.awt.List;
 
 public class Advisor extends Piece
 {
-    public Advisor(boolean isRed, int X, int Y, int id): base(isRed, X, Y, id)
+    public Advisor(boolean isRed, int X, int Y, int id)
     {
         this.X = X;
         this.Y = Y;
