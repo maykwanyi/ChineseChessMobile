@@ -86,11 +86,11 @@ public class General extends Piece
     
     private boolean checkMove(int X, int Y,Board board)
     {
-        if (isRed && X >= 3 && X <= 5 && Y <= 2 && Y >= 0 && (Math.Abs(X - this.X) == 1 ^ Math.Abs(Y - this.Y) == 1) \
-            && (board.board[X][Y].isEmpty) && X != this.X && Y != this.Y)
+        if (isRed && X >= 3 && X <= 5 && Y <= 2 && Y >= 0 && (Math.Abs(X - this.X) == 1 ^ Math.Abs(Y - this.Y) == 1)
+                && (board.board[X][Y].isEmpty) && X != this.X && Y != this.Y)
             return true;
-        else if (!isRed && X >= 3 && X <= 5 && Y >= 7 && Y <= 9 && (Math.Abs(X - this.X) == 1 ^ Math.Abs(Y - this.Y) == 1) \
-                 && (board.board[X][Y].isEmpty) && X != this.X && Y != this.Y)
+        else if (!isRed && X >= 3 && X <= 5 && Y >= 7 && Y <= 9 && (Math.Abs(X - this.X) == 1 ^ Math.Abs(Y - this.Y) == 1)
+                && (board.board[X][Y].isEmpty) && X != this.X && Y != this.Y)
             return true;
         else if (board.RGP.Y == board.BGP.Y)
         {
