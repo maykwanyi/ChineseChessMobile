@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<piece xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_rook_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Rook_black" />
+
+    <ImageView
+        android:id="@+id/image_rook_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Rook_red" />
+
+    <ImageView
+        android:id="@+id/image_horse_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Horse_red" />
+
+    <ImageView
+        android:id="@+id/image_horse_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Horse_black" />
+
+    <ImageView
+        android:id="@+id/image_solider_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Solider_black" />
+
+    <ImageView
+        android:id="@+id/image_solider_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Solider_red" />
+
+    <ImageView
+        android:id="@+id/image_elephant_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Elephant_black" />
+
+    <ImageView
+        android:id="@+id/image_elephant_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Elephant_red" />
+
+    <ImageView
+        android:id="@+id/image_general_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/General_black" />
+
+    <ImageView
+        android:id="@+id/image_general_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/General_red" />
+
+    <ImageView
+        android:id="@+id/image_advisor_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Advisor_black" />
+
+    <ImageView
+        android:id="@+id/image_advisor_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/Advisor_red" />
+</piece>
