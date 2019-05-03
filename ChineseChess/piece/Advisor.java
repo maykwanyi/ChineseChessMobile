@@ -2,7 +2,7 @@ package edu.umb.cs443.chinesechess.piece;
 
 import java.awt.List;
 
-public class Advisor extends Piece
+public class Advisor 
 {
     public Advisor(boolean isRed, int X, int Y, int id)
     {
